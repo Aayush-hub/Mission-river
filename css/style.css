@@ -403,16 +403,6 @@ ol {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-.hs-nav .hn-social {
-  text-align: right;
-  padding: 19px 0 18px;
-}
-.hs-nav .hn-social a {
-  font-size: 15px;
-  color: #111111;
-  display: inline-block;
-  margin-left: 20px;
-}
 
 .offcanvas-menu-wrapper {
   display: none;
@@ -420,6 +410,7 @@ ol {
 
 .canvas-open {
   display: none;
+  margin-right: 2%;
 }
 
 /*---------------------
@@ -1474,10 +1465,8 @@ ol {
 
 .cs-map {
   height: 450px;
-  position: absolute;
   right: 0;
   top: 0;
-  width: 50%;
 }
 .cs-map iframe {
   width: 100%;

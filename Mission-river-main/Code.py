@@ -1,13 +1,17 @@
-import webbrowser
-url = 'https://indiawris.gov.in/wris/#/SWQuality'
-print("Url: ",url)
-print("0: Enter 0 to see data!")
+import webbrowser                                   #pip install webbrowser
+from PIL import Image                               #pip install pillow
+url = 'https://indiawris.gov.in/wris/#/SWQuality'   #url to fetch data 
+print("Url: ",url)                                  #printing url foe ease of use
+print("0: Enter 0 to see data!")                   
 print("1: Enter 1 to analyze data!")
-a = int(input())
+a = int(input())                                    #taking u ser input to choose the task
 if a == 0:
-    webbrowser.open_new(url)
+    webbrowser.open_new(url)                        #opening url to see data
 elif a == 1:
-    print("Class A: Total coliforms less than or equal to 50, ",
+    img = Image.open("C:/Users/user/Videos/Captures/1.pdf - Profile 1 - Microsoft​ Edge 02-Oct-20 9_19_40 PM (2).png")  #enter file path here
+    img.show()                                      #opening parameter analysing image
+    #printing values to distinguish quality data
+    print("Class A: Total coliforms less than or equal to 50, ",            
     "pH : 6.5-8.5, ","Dissolved Oxygen 6mg/l or more, ",
     "Biochemical Oxygen Demand 5 days 20^C, 2mg/l or less")
     print("Class B: Total Coliforms 500 or less, ",
@@ -19,7 +23,8 @@ elif a == 1:
     "Biochemical Oxygen Demand 5 days 20 ^C, 2mg/l or less")
     print("Class E: pH : 6.0-8.5, ","Electrical Conductivity at 25 ^C micro mhos/cm, maximum 2250, ",
     "Sodium absorption Ratio Max. 26, ","Boron Max. 2mg/l")
-    b = input("Enter class of your water quality: ").upper()
+    b = input("Enter class of your water quality: ").upper()              #taking user input to choose class of his water quality
+    #printing analysed data
     if (b == "A"):
         print("***Drinking Water Source without conventional treatment but after disinfection***")
         print("Solution: Boil water or filter it through fine cloth")

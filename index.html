@@ -40,11 +40,11 @@
         </div>
         <div class="logo">
             <a href="./index.html">
-               <h3><b>Mission River</b></h3>
+                <h3><b>Mission River</b></h3>
             </a>
         </div>
         <div id="mobile-menu-wrap"></div>
-        
+
     </div>
     <!-- Offcanvas Menu Wrapper End -->
 
@@ -55,16 +55,18 @@
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="logo">
-                            <a href="./index.html"><h3><b>Mission River</b></h3></a>
+                            <a href="./index.html">
+                                <h3><b>Mission River</b></h3>
+                            </a>
                         </div>
                     </div>
-                <div class="hs-nav">
+                    <div class="hs-nav">
                         <nav class="nav-menu" style="padding: 22px 0">
                             <ul>
                                 <li class="active"><a href="./index.html">Home</a></li>
                             </ul>
                         </nav>
-                </div>
+                    </div>
                 </div>
                 <div class="canvas-open">
                     <span class="icon_menu"></span>
@@ -91,14 +93,14 @@
                         <option value="0">Search the Data</option>
                         <option value="1">Analyse the Data</option>
                     </select>
-                    <button type="button" class="search-btn sm-width">Search</button>
+
                 </form>
             </div>
         </div>
     </section>
     <!-- Search Section End -->
 
-    <!-- Map section Begins -->
+    <!-- Map section Begins -
     <section class="contact-section">
         <div class="container">
             <div class="cs-map">
@@ -106,52 +108,13 @@
                 src="https://www.google.com"
                 height="450" style="border:0;" allowfullscreen=""></iframe>
         </div>
+        </div>
     </section>
-    <!-- Map section Ends -->
+    -- Map section Ends -->
 
-    <!-- Contact Section Begin -->
-    <section class="contact-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="contact-info">
-                        <div class="ci-item">
-                            <div class="ci-icon">
-                                <i class="fa fa-map-marker"></i>
-                            </div>
-                            <div class="ci-text">
-                                <h5>Address</h5>
-                                <p>160 Pennsylvania Ave NW, Washington, Castle, PA 16101-5161</p>
-                            </div>
-                        </div>
-                        <div class="ci-item">
-                            <div class="ci-icon">
-                                <i class="fa fa-mobile"></i>
-                            </div>
-                            <div class="ci-text">
-                                <h5>Phone</h5>
-                                <ul>
-                                    <li>125-711-811</li>
-                                    <li>125-668-886</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="ci-item">
-                            <div class="ci-icon">
-                                <i class="fa fa-headphones"></i>
-                            </div>
-                            <div class="ci-text">
-                                <h5>Support</h5>
-                                <p>Support.***@gmail.com</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="container" style="margin-bottom: 2%">
+            <img src="./img./river.jpg" style="width: 100%">
         </div>
-        </div>
-    </section>
-    <!-- Contact Section End -->
 
     <!-- Footer Section Begin -->
     <footer class="footer-section">
@@ -164,26 +127,19 @@
                                 <h4 style="color: white">Mission River</h4>
                             </a>
                         </div>
-                        <p>We aim to help the community by providing them reliable and accurate river data at the ease of their phone.</p>
+                        <p>We aim to help the community by providing them reliable and accurate river data at the ease
+                            of their phone.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="fs-widget">
-                        <h5>Newsletter</h5>
-                        <p>Deserunt mollit anim id est laborum.</p>
-                        <form action="#" class="subscribe-form">
-                            <input type="text" placeholder="Email">
-                            <button type="submit" class="site-btn">Subscribe</button>
-                        </form>
-                    </div>
-                </div>
             </div>
             <div class="copyright-text">
-                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by Mission_River.
-  </p>
+                <p>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    This site is made
+                    with <i class="fa fa-heart" aria-hidden="true"></i> by Team Hack_In.
+                </p>
             </div>
         </div>
     </footer>
@@ -201,6 +157,25 @@
     <script src="js/jquery.richtext.min.js"></script>
     <script src="js/image-uploader.min.js"></script>
     <script src="js/main.js"></script>
+
+
+    <script>
+        jQuery("#drop1").change(function () {
+            //  location.href = jQuery(this).val();
+            //alert(jQuery(this).val());
+            var d = (jQuery(this).val());
+            if (d == 0) {
+                location.href = "https://indiawris.gov.in/wris/#/SWQuality";
+
+            }
+            else {
+                location.href = "result.html";
+
+            }
+        })
+
+    </script>
+
 </body>
 
 </html>

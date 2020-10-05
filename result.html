@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Aler Template">
+    <meta name="keywords" content="Aler, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hack_In</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Offcanvas Menu Wrapper Begin -->
+    <div class="offcanvas-menu-overlay"></div>
+    <div class="offcanvas-menu-wrapper">
+        <div class="canvas-close">
+            <span class="icon_close"></span>
+        </div>
+        <div class="logo">
+            <a href="./index.html">
+                <h3><b>Mission River</b></h3>
+            </a>
+        </div>
+        <div id="mobile-menu-wrap"></div>
+
+    </div>
+    <!-- Offcanvas Menu Wrapper End -->
+
+    <!-- Header Section Begin -->
+    <header class="header-section">
+        <div class="hs-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="logo">
+                            <a href="./index.html">
+                                <h3><b>Mission River</b></h3>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hs-nav">
+                        <nav class="nav-menu" style="padding: 22px 0">
+                            <ul>
+                                <li><a href="./index.html">Home</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="canvas-open">
+                    <span class="icon_menu"></span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+    
+    <section class="search-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="section-title">
+                        <h4>Base values for the classes of the river.</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="container" style="margin-bottom: 2%;">
+            <img src="./img/data.png" style="width: 100%">
+            </div>
+        </div>
+    </section>
+
+    <!-- Search Section Begin -->
+    <section class="search-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="section-title">
+                        <h4>Select the class of the river.</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="search-form-content">
+                <form action="./result.html" class="filter-form">
+                    <select id="drop1" class="sm-width">
+                        <option value="" selected="selected">Select the class</option>
+                        <option value="A">Class A</option>
+                        <option value="B">Class B</option>
+                        <option value="C">Class C</option>
+                        <option value="D">Class D</option>
+                        <option value="E">Class E</option>
+                    </select>
+                    <!--   <button type="button" class="search-btn sm-width">Select</button> -->
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about-section spad" id="about-sec">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="about-text">
+                        <div class="at-title">
+                            <h3>Welcom to Result viewing</h3>
+                            <p>This is the result page of your river.</p>
+                        </div>
+                        <div class="at-feature">
+                            <div class="af-item">
+                                <div class="af-icon">
+                                    <img src="img/chooseus/chooseus-icon-1.png" alt="">
+                                </div>
+                                <div class="af-text">
+                                    <h6>Description</h6>
+                                    <p id="des">.</p>
+                                </div>
+                            </div>
+                            <div class="af-item">
+                                <div class="af-icon">
+                                    <img src="img/chooseus/chooseus-icon-1.png" alt="">
+                                </div>
+                                <div class="af-text">
+                                    <h6>Classification</h6>
+                                    <p id="cls">.</p>
+                                </div>
+                            </div>
+                            <div class="af-item">
+                                <div class="af-icon">
+                                    <img src="img/chooseus/chooseus-icon-3.png" alt="">
+                                </div>
+                                <div class="af-text">
+                                    <h6>Solutions to improve the water quality</h6>
+                                    <p id="sol"></p>
+                                </div>
+                            </div>
+                            <div class="af-item">
+                                <div class="af-icon">
+                                    <img src="img/chooseus/chooseus-icon-2.png" alt="">
+                                </div>
+                                <div class="af-text">
+                                    <h6>Uses of the water</h6>
+                                    <p id="use"></p>
+                                </div>
+                            </div>
+
+                            <style>
+                                #earth:hover {
+                                    color: black;
+                                }
+                            </style>
+
+                            <a id="earth" href="https://earthexplorer.usgs.gov"> Check here More Details about this ...
+                                !!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Search Section End --
+        <div class="container">
+            <img src="./img./river.jpg" style="width: 100%">
+        </div>
+
+
+    <!-- Footer Section Begin -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="fs-about">
+                        <div class="fs-logo">
+                            <a href="#">
+                                <h4 style="color: white">Mission River</h4>
+                            </a>
+                        </div>
+                        <p>We aim to help the community by providing them reliable and accurate river data at the ease
+                            of their phone.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                </div>
+            </div>
+            <div class="copyright-text">
+                <p>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    This site is made
+                    with <i class="fa fa-heart" aria-hidden="true"></i> by Team Hack_In.
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.richtext.min.js"></script>
+    <script src="js/image-uploader.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <style>
+        #about-sec {
+            display: none;
+        }
+    </style>
+    <script>
+
+        //$("#about-sec").hide(1000);
+
+        jQuery("#drop1").change(function () {
+            //  location.href = jQuery(this).val();
+            //alert(jQuery(this).val());
+            var b = (jQuery(this).val());
+
+            $("#about-sec").show(500);
+
+            if (b == "A") {
+                $("#des").text("Class A: Total coliforms less than or equal to 50,  pH : 6.5-8.5, Dissolved Oxygen 6mg/l or more,  Biochemical Oxygen Demand 5 days 20^C, 2mg/l or less");
+                $("#cls").text("***Drinking Water Source without conventional treatment but after disinfection***");
+                $("#sol").text("Solution: Boil water or filter it through fine cloth");
+                $("#use").text("Uses: Clothes washing, closed system toilet flushing, garden watering and firefighting. It can be used to irrigate food crops that consumed raw or sold to consumers uncooked or processed");
+
+
+            }
+            else if (b == "B") {
+
+
+                $("#des").text("Class B: Total Coliforms 500 or less,         pH : 6.5-8.5, ", "Dissolved Oxygen 5mg/l or more, ,        Biochemical Oxygen Demand 5 days 20^C, 3mg/l or less");
+                $("#cls").text("***Outdoor bathing (Organised)***");
+                $("#sol").text("Solution: Clorination , boiling, Bio-sand filteration");
+                $("#use").text("Uses: Irrigate sports fields, golf courses and dairy cattle grazing land.It can also be used for industrial wash down ");
+
+
+            } else if (b == "C") {
+
+
+                $("#des").text("Class C: Total Coliforms 5000 or less, pH : 6-9, Dissolved Oxygen 4mg/l or more, , Biochemical Oxygen Demand 5 days 20^C, 3mg/l or less ");
+                $("#cls").text("***Drinking water source after conventional treatment and disinfection***");
+                $("#sol").text("Solution: Coagulation , Desalination , Sedimentation");
+                $("#use").text("Uses: used for a number of uses including for cooked or processed human food crops including wine grapes and olives.  It can also be used for livestock grazing and fodder and for human food crops grown over a meter above the ground and eaten raw such as apples, pears, table grapes and cherries.  It can be used by councils for specific purposes but there are restrictions around human contact.");
+
+
+
+            } else if (b == "D") {
+
+                $("#des").text("Class D: pH : 6.5-8.5, , Dissolved Oxygen 4mg/l or more, , Free Ammonia (as N), Biochemical Oxygen Demand 5 days 20 ^C, 2mg/l or less");
+                $("#cls").text("***Propagation of Wild life and Fisheries***");
+                $("#sol").text("Solution: Softning , Aeration");
+                $("#use").text("Uses: Used for non-food crops such as instant turf, woodlots and flowers");
+
+
+            } else if (b == "E") {
+
+                $("#des").text("Class E: pH : 6.0-8.5, Electrical Conductivity at 25 ^C micro mhos/cm, maximum 2250,  Sodium absorption Ratio Max. 26, , Boron Max. 2mg/l");
+                $("#cls").text("***Irrigation, Industrial Cooling, Controlled Waste disposal***");
+                $("#sol").text("Solution: Membranes ,Adsorption");
+                $("#use").text("Uses: Only for industry cooling and waste disposal");
+
+
+            }
+
+            else {
+
+                console.log("You entered wrong choice!")
+            }
+
+        })
+
+    </script>
+
+
+</body>
+
+</html>

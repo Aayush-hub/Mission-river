@@ -1,5 +1,6 @@
  ![Mission-river](img/a.JPG)
-## Our idea which is consist of an web that will help industries, authorities and communities to identify the hazardous chemicals and all other elements, its possible source and remedy.  
+## Idea
+Our idea which is consist of an web that will help industries, authorities and communities to identify the hazardous chemicals and all other elements, its possible source and remedy.  
 - :smile: First part of this project is an web (through url) which will be used to see data about heavy metals, minerals and other trace elements   from the sample water of River.
 
 
